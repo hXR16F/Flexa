@@ -110,7 +110,7 @@ goto :eof
 		md "users/%register_username%"
 		echo -d "%register_password%" > "users/%register_username%/_%register_password%.pwd"
 		
-		echo -cgad %theme2% 1 9 175 " Account Created^!"
+		echo -cgad %theme2% 1 9 175 " Account created^!"
 		echo -w 2000
 		
 		goto :main
