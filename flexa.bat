@@ -26,7 +26,7 @@ goto :eof
 	(
 		echo -cgd %theme1% 1 1 "                                                                                                  "
 		echo -gd 1 28 "                                                                                                  "
-		echo -gd 1 1 "Flexa v1.0"
+		echo -gd 1 1 "Flexa"
 	)
 	
 	exit /b
